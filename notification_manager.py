@@ -4,7 +4,6 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-BEARER_TOKEN = os.environ['BEARER_TOKEN'] #Your Sheety BEARER_TOKEN
 TWILIO_SID = os.environ['TWILIO_SID'] #Your TWILIO_SID
 TWILIO_AUTH_TOKEN = os.environ['TWILIO_AUTH_TOKEN'] #Your TWILIO_AUTH_TOKEN
 TWILIO_VIRTUAL_NUMBER = os.environ['TWILIO_VIRTUAL_NUMBER'] #Your TWILIO_VIRTUAL_NUMBER
